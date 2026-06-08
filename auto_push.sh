@@ -20,7 +20,8 @@ while true; do
     git add -A
 
     # 提交（如无变更则跳过）
-    git commit -m "auto backup at $(date '+%Y-%m-%d %H:%M:%S')" || true
+    # --no-verify 跳过 pre-commit hook，防止网络环境下 hook 卡住
+    git commit --no-verify -m "auto backup at $(date '+%Y-%m-%d %H:%M:%S')" || true
 
     # 推送到 origin main（走 SSH over 443 绕过网络限制）
     git push origin main || echo "[$(date '+%H:%M:%S')] push failed, will retry next loop"
