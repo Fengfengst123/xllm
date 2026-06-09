@@ -313,3 +313,17 @@ hint: use 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [14:41:09] push failed, will retry next loop
 [14:41:09] next backup in 30min...
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 6 and 2 different commits each, respectively.
+
+nothing to commit, working tree clean
+To github.com:Fengfengst123/xllm.git
+ ! [rejected]          main -> main (non-fast-forward)
+error: failed to push some refs to 'github.com:Fengfengst123/xllm.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[15:11:14] push failed, will retry next loop
+[15:11:14] next backup in 30min...
