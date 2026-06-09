@@ -36,7 +36,7 @@
 	fetchRecurseSubmodules = false
 [submodule "third_party/torch_npu_ops"]
 	path = third_party/torch_npu_ops
-	url = https://gitcode.com/xLLM-AI/torch_npu_ops.git
+	url = https://github.com/Fengfengst123/torch_npu_ops.git
 	fetchRecurseSubmodules = false
 [submodule "third_party/cutlass"]
 	path = third_party/cutlass
